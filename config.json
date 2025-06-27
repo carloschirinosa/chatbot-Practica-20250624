@@ -1,0 +1,15 @@
+{
+  "vision_api": {
+    "endpoint": "https://computervision-practica-20250624.cognitiveservices.azure.com/",
+    "key": "Nn5zMwqfkXhka5P3B27IVXjhTzMymqSUcA9DcquPWCGF4pwjHgdTJQQJ99BFACYeBjFXJ3w3AAAFACOGGXKD"
+  },
+  "openai_api": {
+        "key": "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"
+  },
+  "huggingface_api": {
+    "token": "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"
+  },
+  "llm_model_name1": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "llm_model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "embedding_model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}
