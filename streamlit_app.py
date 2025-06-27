@@ -47,6 +47,7 @@ if config:
     except Exception as e:
         st.error(f"Error inesperado al acceder a la clave de OpenAI: {e}")
 
+openai_api_key ="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"
 # --- Inicialización de variables de estado de sesión para las conversaciones ---
 if "conversations" not in st.session_state:
     st.session_state.conversations = {} # Diccionario para almacenar todas las conversaciones
